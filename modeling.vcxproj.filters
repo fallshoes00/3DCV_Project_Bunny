@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Basic.cpp" />
+    <ClCompile Include="imgui-master\imgui.cpp" />
+    <ClCompile Include="imgui-master\imgui_demo.cpp" />
+    <ClCompile Include="imgui-master\imgui_draw.cpp" />
+    <ClCompile Include="imgui_impl_glfw.cpp" />
+    <ClCompile Include="lodepng.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="cwc\source\glsl.cpp" />
+    <ClCompile Include="glew\source\glew.c" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Camera.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Basic.h" />
+    <ClInclude Include="Colors.h" />
+    <ClInclude Include="ILMBase.h" />
+    <ClInclude Include="imgui-master\imgui.h" />
+    <ClInclude Include="imgui-master\imgui_internal.h" />
+    <ClInclude Include="imgui_impl_glfw.h" />
+    <ClInclude Include="lodepng.h" />
+    <ClInclude Include="cwc\include\glsl.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="Camera.h" />
+  </ItemGroup>
+</Project>
